@@ -2,7 +2,7 @@ version: "3"
 networks:
   expense:
 volumes:
-  data:  # docker volume create mysql
+  mysql:  # docker volume create mysql
 services:
   mysql:
     image: tejaswinib1998/mydql:v1
