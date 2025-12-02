@@ -10,7 +10,7 @@
 # RUN npm install
 # CMD ["node", "index.js"]
 
-# docker by using bridge network
+# docker by using bridge network (we have to create new host network)
 
 FROM node:20
 EXPOSE 8080
